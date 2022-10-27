@@ -34,5 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         };
+
+        btnOk.setOnClickListener(oclBtn);
+        btnCancel.setOnClickListener(oclBtn);
     }
 }
